@@ -1,18 +1,18 @@
 ﻿SASM (SimpleASM) - простая кроссплатформенная среда разработки для языков ассемблера NASM, MASM, GAS, FASM с подсветкой синтаксиса и отладчиком. В SASM Вы можете легко разрабатывать и выполнять программы, написанные на языках ассемблера NASM, MASM, GAS, FASM. Вводите код в форму и запускайте приложение. Программа работает "из коробки" и хорошо подойдет для начинающих изучать язык ассемблера.
 Основана на Qt. Распространяется по свободной лицензии GNU GPL v3.0.
 
-SASM (SimpleASM) - simple Open Source crossplatform IDE for NASM, MASM, GAS, FASM assembly languages.
-SASM has syntax highlighting and debugger. The program works out of the box and is great for beginners to learn assembly language. SASM is translated into Russian, English, Turkish (thanks Ali Goren), Chinese (thanks Ahmed Zetao Yang), German (thanks Sebastian Fischer) and Italian (thanks Carlo Dapor).
-Licensed under the GNU GPL v3.0. Based on the Qt.
+SASM (SimpleASM) - простая Open Source кроссплатформенная IDE для NASM, MASM, GAS, FASM языков ассемблера.
+SASM имеет подсветку синтаксиса и отладчик. Программа работает из коробки и отлично подходит для начинающих изучать язык ассемблера. SASM переводится на русский, английский, турецкий (спасибо Али Горен), китайский (спасибо Ahmed Zetao Yang), немецкий (спасибо Себастиан Фишер) и итальянский (спасибо Карло Дапор).
+Распространяется по лицензии GNU GPL v3.0. На основе Qt.
 
 ===========================================================================
-How to build SASM from sources:
+Как построить SASM из источников:
 ===========================================================================
 You need:
-	Qt 4.8 and above
-	C++ compiler
+	Qt 4.8 и выше
+	C++ компилятор
 
-	On linux also: 
+	В linux также: 
 	gcc (x86) or gcc-multilib (x64)
 	gdb
 	nasm
@@ -24,20 +24,20 @@ You need:
 	libxcb-render0
 	libxcb-icccm4
 
-Download sources and unpack their.
-Go to directory with their: "cd <path>"
-Further print commands:
-1) "qmake" (For installing in specific directory on Linux - print: "qmake PREFIX=<path>". By default SASM installs in "/usr/bin" and "usr/share")
-2) "make" for Linux and "mingw32-make" for Windows.
-3) For Linux: "make install" (command "sasm" will open SASM) or run "sasm" from folder right away or put "sasm" executable file to folder "Linux" (from this folder you can run the program).
-   For Windows: Put "sasm.exe" executable file to folder "Windows". From this folder you can run the program. Also you can run program right away from compilation folder.
+Скачать источники и распаковать их.
+Перейти в каталог с их: "cd <путь>"
+Другие команды печати:
+1) "qmake" (Для установки в определенной директории на Linux - печать: "qmake PREFIX=<путь>". По умолчанию SASM устанавливается в "/usr/bin" and "usr/share")
+2) "make" для Linux и "mingw32-make" для Windows.
+3) Для Linux: "make install" (команда "sasm" - откроется SASM) или запустить "sasm" из папки сразу или поставить "sasm" исполняемый файл в папку "Linux" (из этой папки вы можете запустить программу).
+   Для Windows: Поместите "sasm.exe" исполняемый файл в папку "Windows". Из этой папки можно запустить программу. Также вы можете запустить программу сразу из папки компиляции.
 ===========================================================================
 
-Also you can download already compiled packages 
-from site http://dman95.github.io/SASM/ or 
-from OBS repository http://download.opensuse.org/repositories/home:/Dman95/
+Также вы можете скачать уже скомпилированные пакеты 
+с сайта http://dman95.github.io/SASM/ или
+из OBS хранилища http://download.opensuse.org/repositories/home:/Dman95/
 
-More help info in file help.html
-Also SASM supports doxygen: run "doxygen configfile" to generate documentation. In this documentation you can also find a small developer guide which includes information about adding new assemblers and languages support.
+Более подробная информация в файл справки help.html
+Также SASM поддерживает doxygen: запустить "doxygen configfile" для создания документации. В этой документации вы также можете найти небольшой путеводитель разработчика, который включает в себя информацию о добавлении новых сборщиков и о поддержке языков.
 
 Copyright © 2013 Dmitriy Manushin
